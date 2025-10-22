@@ -8,9 +8,9 @@ version = "Beta 0.2"
 
 window = tk.Tk()
 window.title("CloudFlare GUI WARP " + version)
-window.geometry("450x120")
+window.geometry("450x250")
 window.eval('tk::PlaceWindow . center')
-window.resizable(width=False, height=False)
+window.resizable(width=True, height=True)
 
 
 def connect():
