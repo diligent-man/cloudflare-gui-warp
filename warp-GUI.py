@@ -1,14 +1,14 @@
-import tkinter as tk
-from tkinter import messagebox, Label
 import os
 import sys
 import subprocess
 
-version = "Beta 0.2"
+import tkinter as tk
+from tkinter import messagebox, Label
+
 
 window = tk.Tk()
-window.title("CloudFlare GUI WARP " + version)
-window.geometry("450x250")
+window.title("CloudFlare GUI WARP ")
+window.geometry(f"{int(window.winfo_screenwidth() * 0.25)}x{int(window.winfo_screenheight() * 0.16)}")
 window.eval('tk::PlaceWindow . center')
 window.resizable(width=True, height=True)
 
